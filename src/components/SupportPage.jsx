@@ -263,7 +263,7 @@ const SupportPage = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Phone Support</h4>
-                    <p className="text-gray-400">+91-1800-123-4567</p>
+                    <p className="text-gray-400">+91 9591408655</p>
                     <p className="text-gray-400 text-sm">Monday - Friday, 9:00 AM - 6:00 PM IST</p>
                   </div>
                 </div>
@@ -276,7 +276,7 @@ const SupportPage = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email Support</h4>
-                    <p className="text-gray-400">support@tradesmart.com</p>
+                    <p className="text-gray-400">Support@tradesmartly.co.in</p>
                     <p className="text-gray-400 text-sm">Response within 24 hours</p>
                   </div>
                 </div>
@@ -290,8 +290,8 @@ const SupportPage = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Office Address</h4>
-                    <p className="text-gray-400">TradeSmart Tower, Financial District</p>
-                    <p className="text-gray-400">Mumbai, Maharashtra 400001</p>
+                   
+                    <p className="text-gray-400">BANASWADI, BANGALORE KARNATAKA 560043</p>
                   </div>
                 </div>
               </div>

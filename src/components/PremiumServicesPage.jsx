@@ -5,8 +5,8 @@ const PremiumServicesPage = () => {
     {
       title: 'STOCK CASH',
       subtitle: 'Advanced trading strategies with premium market insights',
-      monthlyPrice: '₹4,999/-',
-      quarterlyPrice: '₹12,999/-',
+      monthlyPrice: '₹14,999/-',
+      quarterlyPrice: '₹45,999/-',
       features: [
         'Live premium recommendations daily',
         'Risk to reward ratio 1:3',
@@ -20,8 +20,8 @@ const PremiumServicesPage = () => {
     {
       title: 'STOCK OPTIONS',
       subtitle: 'Comprehensive wealth management for high net worth individuals',
-      monthlyPrice: '₹9,999/-',
-      quarterlyPrice: '₹24,999/-',
+      monthlyPrice: '₹19,999/-',
+      quarterlyPrice: '₹60,999/-',
       features: [
         'Personalized investment advice',
         'Portfolio optimization',
@@ -35,8 +35,8 @@ const PremiumServicesPage = () => {
     {
       title: 'INDEX FUTURES',
       subtitle: 'Ultra-premium financial advisory services',
-      monthlyPrice: '₹7,999/-',
-      quarterlyPrice: '₹19,999/-',
+      monthlyPrice: '₹23,999/-',
+      quarterlyPrice: '₹59,999/-',
       features: [
         'Personal financial advisor',
         'Customized investment plans',
@@ -50,8 +50,8 @@ const PremiumServicesPage = () => {
     {
       title: 'INDEX OPTIONS',
       subtitle: 'Strategic tax planning and optimization services',
-      monthlyPrice: '₹5,999/-',
-      quarterlyPrice: '₹17,999/-',
+      monthlyPrice: '₹22,999/-',
+      quarterlyPrice: '₹55,999/-',
       features: [
         'Comprehensive tax advice',
         'Capital gains optimization',
@@ -65,8 +65,8 @@ const PremiumServicesPage = () => {
     {
       title: 'MCX BULLIONS',
       subtitle: 'Premium gold and silver trading with advanced strategies',
-      monthlyPrice: '₹7,999/-',
-      quarterlyPrice: '₹19,999/-',
+      monthlyPrice: '₹25,999/-',
+      quarterlyPrice: '₹50,999/-',
       features: [
         '3-4 premium recommendations daily',
         'Risk to reward ratio 1:3',
@@ -80,8 +80,8 @@ const PremiumServicesPage = () => {
     {
       title: 'MCX BASEMETAL',
       subtitle: 'Premium base metal trading with expert analysis',
-      monthlyPrice: '₹6,999/-',
-      quarterlyPrice: '₹17,999/-',
+      monthlyPrice: '₹14,999/-',
+      quarterlyPrice: '₹42,999/-',
       features: [
         '3 premium recommendations daily',
         'Risk to reward ratio 1:3',
@@ -95,8 +95,8 @@ const PremiumServicesPage = () => {
     {
       title: 'MCX ENERGY',
       subtitle: 'Premium crude oil and natural gas trading strategies',
-      monthlyPrice: '₹6,499/-',
-      quarterlyPrice: '₹16,999/-',
+      monthlyPrice: '₹16,999/-',
+      quarterlyPrice: '₹42,999/-',
       features: [
         '3 premium recommendations daily',
         'Risk to reward ratio 1:3',

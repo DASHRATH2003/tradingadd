@@ -5,8 +5,8 @@ const BasicServicesPage = () => {
     {
       title: 'STOCK CASH',
       subtitle: 'Start your trading journey with our basic trading services designed for beginners and intermediate traders',
-      monthlyPrice: '₹299/-',
-      quarterlyPrice: '₹2,499/-',
+      monthlyPrice: '₹9999/-',
+      quarterlyPrice: '₹14999/-',
       features: [
         'Live market updates',
         'Basic technical analysis',
@@ -19,8 +19,8 @@ const BasicServicesPage = () => {
     {
       title: 'STOCK FUTURES',
       subtitle: 'Advanced futures trading for smart traders',
-      monthlyPrice: '₹2,999/-',
-      quarterlyPrice: '₹4,999/-',
+      monthlyPrice: '₹12999/-',
+      quarterlyPrice: '₹17999/-',
       features: [
         'Portfolio analysis',
         'Basic allocation advice',
@@ -33,8 +33,8 @@ const BasicServicesPage = () => {
     {
       title: 'STOCK OPTIONS',
       subtitle: 'Professional options trading and analysis',
-      monthlyPrice: '₹3,999/-',
-      quarterlyPrice: 'Rs.999/-',
+      monthlyPrice: '₹14999/-',
+      quarterlyPrice: '₹22999/-',
       features: [
         'Daily market reports',
         'Investment recommendations',
@@ -46,8 +46,8 @@ const BasicServicesPage = () => {
     {
       title: 'INDEX FUTURES',
       subtitle: 'Dedicated customer support for all your queries',
-      monthlyPrice: '₹1,999/-',
-      quarterlyPrice: 'Rs.999/-',
+      monthlyPrice: '₹19999/-',
+      quarterlyPrice: '₹25999/-',
       features: [
         '24*7 live support',
         'Phone support',
@@ -59,7 +59,7 @@ const BasicServicesPage = () => {
     {
       title: 'INDEX OPTIONS',
       subtitle: 'Systematic investment plans and management',
-      monthlyPrice: '₹5,999/-',
+      monthlyPrice: '₹12,999/-',
       quarterlyPrice: '₹23,999/-',
       features: [
         'Mutual fund selection',
@@ -72,8 +72,8 @@ const BasicServicesPage = () => {
     {
       title: 'MCX BULLIONS',
       subtitle: 'Gold and silver trading with expert guidance',
-      monthlyPrice: '₹3,999/-',
-      quarterlyPrice: '₹9,999/-',
+      monthlyPrice: '₹14,999/-',
+      quarterlyPrice: '₹45,999/-',
       features: [
         'Recommendations only',
         'Risk to reward ratio 1:2',
@@ -85,8 +85,8 @@ const BasicServicesPage = () => {
     {
       title: 'MCX BASEMETAL',
       subtitle: 'Copper and aluminum trading strategies',
-      monthlyPrice: '₹2,999/-',
-      quarterlyPrice: '₹9,999/-',
+      monthlyPrice: '₹14,999/-',
+      quarterlyPrice: '₹29,999/-',
       features: [
         '2 recommendations daily',
         '2 recommendations daily'
@@ -95,8 +95,8 @@ const BasicServicesPage = () => {
     {
       title: 'MCX ENERGY',
       subtitle: 'Crude oil and natural gas trading',
-      monthlyPrice: '₹2,499/-',
-      quarterlyPrice: '₹8,999/-',
+      monthlyPrice: '₹23999/-',
+      quarterlyPrice: '₹30999/-',
       features: [
         '2 recommendations daily',
         '2 recommendations daily'

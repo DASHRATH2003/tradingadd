@@ -33,7 +33,7 @@ const Navbar = () => {
               <div className="relative">
                 <button
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
-                  className="text-gray-900 hover:text-blue-600 px-3 py-2 text-lg font-medium transition-colors flex items-center border-2 border-gray-900 rounded-lg"
+                  className="text-gray-900 hover:text-blue-600 px-3 py-2 text-lg font-medium transition-colors flex items-center"
                 >
                   Services
                   <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

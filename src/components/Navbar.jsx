@@ -8,11 +8,11 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <img src={logo} alt="TradeSmartly Logo" className="h-16 w-auto mr-3" />
+              <img src={logo} alt="TradeSmartly Logo" className="h-20 w-auto mr-3" />
               <div className="text-4xl font-bold text-blue-600">
                
               </div>

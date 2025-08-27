@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -8,10 +10,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4">
-                <span className="text-blue-600 font-bold text-xl">TS</span>
-              </div>
-              <span className="text-2xl font-bold">TradeSmart</span>
+              <img src={logo} alt="TradeSmartly Logo" className="h-16 w-auto mr-4" />
+              <span className="text-2xl font-bold">TradeSmartly</span>
             </div>
             <p className="text-blue-200 mb-6 max-w-md">
               Your trusted partner for intelligent trading with advanced analytics, real-time insights, and personalized strategies for maximum returns.
@@ -34,11 +34,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Home</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Trading</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Portfolio</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Research</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Support</a></li>
+              <li><Link to="/" className="text-blue-200 hover:text-white transition-colors">Home</Link></li>
+              <li><Link to="/why-invest" className="text-blue-200 hover:text-white transition-colors">Why Invest?</Link></li>
+              <li><Link to="/about" className="text-blue-200 hover:text-white transition-colors">About</Link></li>
+              <li><Link to="/support" className="text-blue-200 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -46,11 +45,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Basic Trading</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Premium Trading</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">HNI Services</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Market Research</a></li>
-              <li><a href="#" className="text-blue-200 hover:text-white transition-colors">Customer Support</a></li>
+              <li><Link to="/basic-services" className="text-blue-200 hover:text-white transition-colors">Basic Services</Link></li>
+              <li><Link to="/premium-services" className="text-blue-200 hover:text-white transition-colors">Premium Services</Link></li>
+              <li><Link to="/hni-services" className="text-blue-200 hover:text-white transition-colors">HNI Services</Link></li>
             </ul>
           </div>
         </div>
@@ -62,8 +59,8 @@ const Footer = () => {
               © 2025 TradeSmart. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-blue-200 hover:text-white transition-colors">Terms & Conditions</a>
-              <a href="#" className="text-blue-200 hover:text-white transition-colors">Privacy Policy</a>
+              <Link to="/terms-conditions" className="text-blue-200 hover:text-white transition-colors">Terms & Conditions</Link>
+              <Link to="/privacy-policy" className="text-blue-200 hover:text-white transition-colors">Privacy Policy</Link>
               <a href="#" className="text-blue-200 hover:text-white transition-colors">Disclaimer</a>
             </div>
           </div>

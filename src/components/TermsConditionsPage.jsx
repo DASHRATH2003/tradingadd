@@ -141,8 +141,8 @@ const TermsConditionsPage = () => {
                   For questions about these terms and conditions, please contact us:
                 </p>
                 <div className="bg-gray-100 p-4 rounded-lg">
-                  <p className="text-gray-800">Email: legal@tradesmart.com</p>
-                  <p className="text-gray-800">Phone: +91-1800-123-4567</p>
+                  <p className="text-gray-800">Email: Support@tradesmartly.co.in</p>
+                  <p className="text-gray-800">Phone: +91 9591408655</p>
                   <p className="text-gray-800">Address: TradeSmart Technologies Pvt. Ltd., Bangalore, India</p>
                 </div>
               </div>
@@ -155,12 +155,7 @@ const TermsConditionsPage = () => {
                 </p>
               </div>
 
-              <div className="mt-6 p-4 bg-yellow-900/30 rounded-lg border border-yellow-500/50">
-                <p className="text-sm text-yellow-200">
-                  <strong>SEBI Registration:</strong> TradeSmart is registered with the Securities and Exchange Board of India (SEBI) 
-                  as an Investment Advisor. Registration No: INA000012345
-                </p>
-              </div>
+             
             </div>
           </div>
         </div>

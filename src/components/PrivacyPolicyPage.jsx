@@ -133,8 +133,8 @@ const PrivacyPolicyPage = () => {
                   For any questions regarding our refund or privacy policies, please contact us at:
                 </p>
                 <div className="mt-4 p-4 bg-gray-100 rounded-lg">
-                  <p className="text-gray-800">Email: support@tradesmart.com</p>
-                  <p className="text-gray-800">Phone: +91-1800-123-4567</p>
+                  <p className="text-gray-800">Email: Support@tradesmartly.co.in</p>
+                  <p className="text-gray-800">Phone: +91 9591408655</p>
                   <p className="text-gray-800">Address: TradeSmart Technologies Pvt. Ltd., Bangalore, India</p>
                 </div>
               </div>

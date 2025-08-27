@@ -108,41 +108,7 @@ const AboutPage = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
-            Our Leadership Team
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-lg border border-blue-200">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">AK</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Ankit Kumar</h3>
-              <p className="text-blue-600 mb-4">CEO & Founder</p>
-              <p className="text-gray-700">20+ years of experience in financial markets and trading strategies</p>
-            </div>
-
-            <div className="text-center bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-lg border border-blue-200">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">RS</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Rajesh Sharma</h3>
-              <p className="text-blue-600 mb-4">CTO</p>
-              <p className="text-gray-700">Expert in financial technology and algorithmic trading systems</p>
-            </div>
-
-            <div className="text-center bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-lg border border-blue-200">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">PM</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Priya Mehta</h3>
-              <p className="text-blue-600 mb-4">Head of Research</p>
-              <p className="text-gray-700">Specialist in market analysis and investment research</p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Contact CTA */}
       {/* <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">

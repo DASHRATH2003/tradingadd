@@ -24,114 +24,88 @@ const TermsConditionsPage = () => {
           <div className="bg-gradient-to-br from-blue-50 to-emerald-50 p-8 rounded-lg border border-blue-200">
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Trial Calls</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  By accessing and using TradeSmart's services, you accept and agree to be bound by the terms 
-                  and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                  Trial calls are for demonstration purposes only; it is solely up to you to decide whether to trade or not.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Service Description</h2>
-                <p className="text-gray-700 leading-relaxed mb-3">
-                  TradeSmart provides financial research, trading recommendations, and investment advisory services. Our services include:
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Research Recommendations</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  Kindly note that the research recommendations we provide are based on your chosen package. Our research analysts conduct thorough research to make these recommendations. However, it is ultimately up to you to decide whether or not to take positions on these recommendations or avoid them. We cannot be held responsible for any gains or losses resulting from the recommendations we have provided.
                 </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Stock market analysis and recommendations</li>
-                  <li>Portfolio management guidance</li>
-                  <li>Real-time market data and insights</li>
-                  <li>Educational content and research reports</li>
-                </ul>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">3. User Responsibilities</h2>
-                <p className="text-gray-700 leading-relaxed mb-3">
-                  As a user of our services, you agree to:
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Market Risks and Limitations</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  Kindly note that we cannot be held responsible for any losses caused by market fluctuations, inaccuracies, delays in receiving recommendations, news, or any technical issues. It is important to remember that investing and trading in the stock market involve inherent risks beyond our control. Therefore, we cannot entertain any claims for losses incurred due to our recommendations.
                 </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Provide accurate and complete information during registration</li>
-                  <li>Maintain the confidentiality of your account credentials</li>
-                  <li>Use our services only for lawful purposes</li>
-                  <li>Not share your account access with unauthorized persons</li>
-                  <li>Comply with all applicable laws and regulations</li>
-                </ul>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Investment Risks and Disclaimers</h2>
-                <div className="bg-red-50 p-4 rounded-lg border border-red-200 mb-4">
-                    <p className="text-red-700 font-semibold mb-2">⚠️ Important Risk Disclosure</p>
-                    <p className="text-red-600 text-sm leading-relaxed">
-                    Trading and investing in financial markets involves substantial risk and may not be suitable for all investors.
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Refund Policy</h2>
+                <div className="bg-red-50 p-4 rounded-lg border border-red-200">
+                  <p className="text-red-700 font-semibold">
+                    We don't have any refund policy.
                   </p>
                 </div>
-                <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
-                  <li>Past performance does not guarantee future results</li>
-                  <li>All investments carry the risk of loss</li>
-                  <li>You should only invest money you can afford to lose</li>
-                  <li>Our recommendations are for educational purposes only</li>
-                  <li>Always conduct your own research before making investment decisions</li>
-                </ul>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Limitation of Liability</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">5. No Guaranteed Returns</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  TradeSmart shall not be liable for any direct, indirect, incidental, special, or consequential damages 
-                  resulting from the use or inability to use our services, including but not limited to trading losses, 
-                  missed opportunities, or system downtime.
+                  Kindly note that we do not offer any guaranteed returns or commit to guaranteed profits on our recommendations. We trade and invest in the stock market, where all investment and trading capital is subject to market risk.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Subscription and Payment Terms</h2>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Subscription fees are charged in advance and are non-refundable except as stated in our refund policy</li>
-                  <li>Prices are subject to change with 30 days notice</li>
-                  <li>Auto-renewal can be cancelled at any time before the next billing cycle</li>
-                  <li>Failure to pay subscription fees may result in service suspension</li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Intellectual Property</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Confidentiality</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  All content, research, analysis, and recommendations provided by TradeSmart are proprietary and 
-                  protected by intellectual property laws. Users may not reproduce, distribute, or commercialize 
-                  our content without written permission.
+                  All employees, associates, and clients are strictly prohibited from sharing our research reports or any other confidential information. Legal action will be taken against those who do so.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Privacy and Data Protection</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Payment Guidelines</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  We are committed to protecting your privacy and personal information. Please refer to our 
-                  Privacy Policy for detailed information about how we collect, use, and protect your data.
+                  No employee or associate may accept gifts from clients. Please transfer fees only to our official account mentioned on our website, not to any individual account.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Termination</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Account Security</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Either party may terminate this agreement at any time. TradeSmart reserves the right to 
-                  suspend or terminate accounts that violate these terms or engage in fraudulent activities.
+                  We do not handle any Demat or trading accounts on your behalf. Therefore, we strictly advise you not to share your credentials such as User ID, password, security question answers, or OTPs with any of our employees under any circumstances. We will not entertain any claims against such actions at any time.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Regulatory Compliance</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Installment Payment Policy</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  TradeSmart operates in compliance with applicable financial regulations. We are registered 
-                  with relevant regulatory authorities and follow prescribed guidelines for investment advisory services.
+                  We understand that not everyone has the financial resources to pay for their essentials, which makes it difficult for many to pay our fees in a single lump sum. Therefore, we offer the option of paying in instalments at times convenient to you. These instalments are solely for paying the fees, not for profit sharing in any way. Please note that if you are dissatisfied with our services at any point during your subscription period, you will not be eligible for a refund of the fees paid till date, as per our refund policy.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Governing Law</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Terms Modification</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  These terms shall be governed by and construed in accordance with the laws of India. 
-                  Any disputes arising from these terms shall be subject to the jurisdiction of courts in Bangalore, India.
+                  Ankit Rambabu Jaiswal management has the right to change the Terms & Conditions as per requirement without prior permission of the client.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Queries and Disputes</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  You can raise your queries or disputes at support@bullstockindia.com
+                </p>
+              </div>
+
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Governing Law</h2>
+                <p className="text-gray-700 leading-relaxed">
+                  Above Terms & Conditions shall be governed and construed in accordance with the Indian laws and any disputes arising under these Terms & Conditions shall be subject to the Jurisdiction of Maharashtra only.
                 </p>
               </div>
 

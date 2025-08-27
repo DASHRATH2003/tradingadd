@@ -33,7 +33,7 @@ const AboutPage = () => {
               </p>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
                 We are a company in the financial arena empowered by great technology and 
-                state-of-the-art analytics with ample reinforcement of experts and their 20+ years of experience.
+                state-of-the-art analytics with ample reinforcement of experts and their 10+ years of experience.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
                 We have streamlined solutions to solve some of the core issues in the field of investment. 

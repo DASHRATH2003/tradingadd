@@ -107,8 +107,135 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-     
+      {/* Client Reviews Section */}
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
+            What Our Clients Say
+          </h2>
+          <div className="flex overflow-x-auto gap-8 pb-4" style={{scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">AP</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="font-semibold text-gray-900">Amit Arunkumar Patel</h3>
+                  <p className="text-gray-600 text-sm">Gujarat</p>
+                </div>
+              </div>
+              <div className="flex mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700">"Excellent service and professional guidance. TradeSmartly has helped me achieve consistent returns in the market."</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">N</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="font-semibold text-gray-900">Naresh</h3>
+                  <p className="text-gray-600 text-sm">Andhra Pradesh</p>
+                </div>
+              </div>
+              <div className="flex mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700">"The research recommendations are top-notch. I'm very satisfied with the results and professional approach."</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">M</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="font-semibold text-gray-900">Mahalingam</h3>
+                  <p className="text-gray-600 text-sm">Tamil Nadu, Chennai</p>
+                </div>
+              </div>
+              <div className="flex mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700">"Outstanding analytics and expert guidance. TradeSmartly's team has been instrumental in my trading success."</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">MB</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="font-semibold text-gray-900">Mukkund Bhardwaj</h3>
+                  <p className="text-gray-600 text-sm">Jharkhand, Devghar</p>
+                </div>
+              </div>
+              <div className="flex mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700">"Reliable and trustworthy service. The team's expertise has helped me make informed investment decisions."</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">NS</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="font-semibold text-gray-900">Naresh Sanghavi</h3>
+                  <p className="text-gray-600 text-sm">Maharashtra</p>
+                </div>
+              </div>
+              <div className="flex mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700">"Exceptional market insights and personalized service. Highly recommend TradeSmartly for serious investors."</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">NM</span>
+                </div>
+                <div className="ml-4">
+                  <h3 className="font-semibold text-gray-900">Nagendra M</h3>
+                  <p className="text-gray-600 text-sm">Karnataka, Mysore</p>
+                </div>
+              </div>
+              <div className="flex mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700">"Professional team with deep market knowledge. Their recommendations have consistently delivered great results."</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Contact CTA */}
       {/* <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">

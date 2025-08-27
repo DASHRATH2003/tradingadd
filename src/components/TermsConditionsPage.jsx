@@ -105,7 +105,7 @@ const TermsConditionsPage = () => {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Governing Law</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Above Terms & Conditions shall be governed and construed in accordance with the Indian laws and any disputes arising under these Terms & Conditions shall be subject to the Jurisdiction of Maharashtra only.
+                  Above Terms & Conditions shall be governed and construed in accordance with the Indian laws and any disputes arising under these Terms & Conditions shall be subject to the Jurisdiction of Bangalore only.
                 </p>
               </div>
 

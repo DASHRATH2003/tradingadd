@@ -6,7 +6,7 @@ const PremiumServicesPage = () => {
       title: 'STOCK CASH',
       subtitle: 'Advanced trading strategies with premium market insights',
       monthlyPrice: '₹14,999/-',
-      quarterlyPrice: '₹45,999/-',
+      quarterlyPrice: '₹29,999/-',
       features: [
         'Live premium recommendations daily',
         'Risk to reward ratio 1:3',
@@ -17,11 +17,12 @@ const PremiumServicesPage = () => {
         'Stop loss & target guidance'
       ]
     },
+     
     {
       title: 'STOCK OPTIONS',
       subtitle: 'Comprehensive wealth management for high net worth individuals',
       monthlyPrice: '₹19,999/-',
-      quarterlyPrice: '₹60,999/-',
+      quarterlyPrice: '₹44,999/-',
       features: [
         'Personalized investment advice',
         'Portfolio optimization',
@@ -33,10 +34,25 @@ const PremiumServicesPage = () => {
       ]
     },
     {
+      title: 'STOCK FURURE',
+      subtitle: 'Unlock Profitable Trading with Expert Strategies & Exclusive.',
+      monthlyPrice: '₹24,999/-',
+      quarterlyPrice: '₹59,999/-',
+      features: [
+        'Daily Premium Recommendations',
+        'High Reward Potential',
+        'Real-time WhatsApp alerts',
+        'Real-time updates directly on WhatsApp',
+        'Priority assistance whenever you need it',
+        'Market timing precision',
+        'Stop loss & target guidance'
+      ]
+    },
+    {
       title: 'INDEX FUTURES',
       subtitle: 'Ultra-premium financial advisory services',
-      monthlyPrice: '₹23,999/-',
-      quarterlyPrice: '₹59,999/-',
+      monthlyPrice: '₹14,999/-',
+      quarterlyPrice: '₹39,999/-',
       features: [
         'Personal financial advisor',
         'Customized investment plans',
@@ -50,8 +66,8 @@ const PremiumServicesPage = () => {
     {
       title: 'INDEX OPTIONS',
       subtitle: 'Strategic tax planning and optimization services',
-      monthlyPrice: '₹22,999/-',
-      quarterlyPrice: '₹55,999/-',
+      monthlyPrice: '₹19,999/-',
+      quarterlyPrice: '₹49,999/-',
       features: [
         'Comprehensive tax advice',
         'Capital gains optimization',
@@ -64,9 +80,9 @@ const PremiumServicesPage = () => {
     },
     {
       title: 'MCX BULLIONS',
-      subtitle: 'Premium gold and silver trading with advanced strategies',
-      monthlyPrice: '₹25,999/-',
-      quarterlyPrice: '₹50,999/-',
+      subtitle: 'Premium gold and silver trading with advanced ',
+      monthlyPrice: '₹24,999/-',
+      quarterlyPrice: '₹49,999/-',
       features: [
         '3-4 premium recommendations daily',
         'Risk to reward ratio 1:3',
@@ -81,7 +97,7 @@ const PremiumServicesPage = () => {
       title: 'MCX BASEMETAL',
       subtitle: 'Premium base metal trading with expert analysis',
       monthlyPrice: '₹14,999/-',
-      quarterlyPrice: '₹42,999/-',
+      quarterlyPrice: '₹34,999/-',
       features: [
         '3 premium recommendations daily',
         'Risk to reward ratio 1:3',
@@ -95,8 +111,8 @@ const PremiumServicesPage = () => {
     {
       title: 'MCX ENERGY',
       subtitle: 'Premium crude oil and natural gas trading strategies',
-      monthlyPrice: '₹16,999/-',
-      quarterlyPrice: '₹42,999/-',
+      monthlyPrice: '₹14,999/-',
+      quarterlyPrice: '₹34,999/-',
       features: [
         '3 premium recommendations daily',
         'Risk to reward ratio 1:3',

@@ -4,7 +4,7 @@ const HNIServicesPage = () => {
   const services = [
     {
       title: 'STOCK CASH',
-      subtitle: 'Buy and Sell Cash equity with proper stop loss and target using our technical & fundamental analysis.',
+      subtitle: 'Buy and Sell Cash equity with proper stop loss and target using.',
       monthlyPrice: '₹49,999/-',
       quarterlyPrice: '₹84,999/-',
       features: [

@@ -4,7 +4,7 @@ const BasicServicesPage = () => {
   const services = [
     {
       title: 'STOCK CASH',
-      subtitle: 'Start your trading journey with our basic trading services designed for beginners and intermediate traders',
+      subtitle: 'Start your trading journey with our basic trading services designed',
       monthlyPrice: '₹9999/-',
       quarterlyPrice: '₹14999/-',
       features: [
@@ -94,7 +94,7 @@ const BasicServicesPage = () => {
     },
     {
       title: 'MCX ENERGY',
-      subtitle: 'Crude oil and natural gas trading',
+      subtitle: 'Crude oil and natural gas trading With Expert Guidance',
       monthlyPrice: '₹23999/-',
       quarterlyPrice: '₹30999/-',
       features: [

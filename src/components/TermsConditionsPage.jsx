@@ -110,7 +110,7 @@ const TermsConditionsPage = () => {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Contact Information</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">13. Contact Information</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   For questions about these terms and conditions, please contact us:
                 </p>

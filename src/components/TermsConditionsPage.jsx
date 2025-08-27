@@ -91,14 +91,14 @@ const TermsConditionsPage = () => {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Terms Modification</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Ankit Rambabu Jaiswal management has the right to change the Terms & Conditions as per requirement without prior permission of the client.
+                  Ranveer Kumar management has the right to change the Terms & Conditions as per requirement without prior permission of the client.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Queries and Disputes</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  You can raise your queries or disputes at support@bullstockindia.com
+                  You can raise your queries or disputes at Support@tradesmartly.co.in
                 </p>
               </div>
 

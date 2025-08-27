@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <img src={logo} alt="TradeSmartly Logo" className="h-22 w-32 w-auto mr-3" />
+              <img src={logo} alt="TradeSmartly Logo" className="h-20  w-auto mr-3" />
               <div className="text-4xl font-bold text-blue-600">
                
               </div>

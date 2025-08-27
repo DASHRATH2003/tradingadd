@@ -107,7 +107,7 @@ const Home = () => {
               'Something for someone and everyone shall witness an enhancement in their wealth' is the motto of the company and our team.
             </p>
             <p className="text-lg text-white">
-              A company in the financial arena which is empowered by great technology and state of the art analytics with ample reinforcement of experts and their 20+ years of experience.
+              A company in the financial arena which is empowered by great technology and state of the art analytics with ample reinforcement of experts and their 10+ years of experience.
             </p>
           </div>
         </div>

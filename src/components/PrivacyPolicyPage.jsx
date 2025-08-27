@@ -27,39 +27,30 @@ const PrivacyPolicyPage = () => {
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold text-blue-600 mb-3">1. Subscription Refunds</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We offer a 7-day money-back guarantee for all our subscription services. 
-                  If you are not satisfied with our services within the first 7 days of your subscription, 
-                  you can request a full refund.
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  We highly value our clients and strive to offer them the best services possible. However, it is important to understand that we do not provide a 100% guarantee on our calls. Therefore, all sales are final and we do not accept any refunds or cancellations.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-blue-600 mb-3">2. Refund Process</h3>
+                <h3 className="text-xl font-semibold text-blue-600 mb-3">Important Notice</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  To request a refund, please contact our support team at support@tradesmart.com with:
+                  We strongly recommend that before making a payment, our visitors, and potential clients, please:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Your account details</li>
-                  <li>Reason for refund request</li>
-                  <li>Transaction ID or payment reference</li>
+                  <li>Read all information about our services and support given to our clients</li>
+                  <li>Read our Terms and Conditions</li>
+                  <li>Read our Privacy Policy and Refund Policy</li>
                 </ul>
               </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-blue-600 mb-3">3. Processing Time</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Approved refunds will be processed within 5-7 business days and credited back 
-                  to your original payment method.
+              <div className="bg-red-50 p-4 rounded-lg border border-red-200">
+                <h3 className="text-xl font-semibold text-red-600 mb-3">No Refund Policy</h3>
+                <p className="text-red-700 leading-relaxed font-medium">
+                  There is no refund possible in any case whatsoever.
                 </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-blue-600 mb-3">4. Non-Refundable Services</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Trading recommendations that have already been provided and acted upon 
-                  are non-refundable. Partial refunds may be considered on a case-by-case basis.
+                <p className="text-red-700 leading-relaxed mt-2">
+                  Kindly make the payment after reading all terms and conditions, disclaimers and refund policy.
                 </p>
               </div>
             </div>

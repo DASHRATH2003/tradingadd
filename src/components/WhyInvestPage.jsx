@@ -141,39 +141,7 @@ const WhyInvestPage = () => {
         </div>
       </section>
 
-       <section className="py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-16">
-            Our Track Record
-          </h2>
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-2">
-                98%
-              </div>
-              <p className="text-gray-700">Success Rate</p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-2">
-                10,000+
-              </div>
-              <p className="text-gray-700">Happy Clients</p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-2">
-                ₹200Cr+
-              </div>
-              <p className="text-gray-700">Assets Managed</p>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent mb-2">
-                15+
-              </div>
-              <p className="text-gray-700">Years Experience</p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       
 

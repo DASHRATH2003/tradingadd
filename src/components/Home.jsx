@@ -56,70 +56,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Live Market Data */}
-      <section className="py-6 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-         
-          
-          {/* Live Market Indices */}
-           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-             <div className="bg-white rounded-lg p-4 shadow-md border border-gray-200">
-               <div className="text-center">
-                 <h3 className="text-sm font-semibold text-gray-600 mb-1">NIFTY 50</h3>
-                 <div className="text-xl font-bold text-gray-900">
-                   ₹{marketData.nifty.price.toFixed(2)}
-                 </div>
-                 <div className={`text-sm font-medium ${
-                   marketData.nifty.change >= 0 ? 'text-green-600' : 'text-red-600'
-                 }`}>
-                   {marketData.nifty.change >= 0 ? '+' : ''}{marketData.nifty.change.toFixed(2)} ({marketData.nifty.changePercent.toFixed(2)}%)
-                 </div>
-               </div>
-             </div>
- 
-             <div className="bg-white rounded-lg p-4 shadow-md border border-gray-200">
-               <div className="text-center">
-                 <h3 className="text-sm font-semibold text-gray-600 mb-1">SENSEX</h3>
-                 <div className="text-xl font-bold text-gray-900">
-                   ₹{marketData.sensex.price.toFixed(2)}
-                 </div>
-                 <div className={`text-sm font-medium ${
-                   marketData.sensex.change >= 0 ? 'text-green-600' : 'text-red-600'
-                 }`}>
-                   {marketData.sensex.change >= 0 ? '+' : ''}{marketData.sensex.change.toFixed(2)} ({marketData.sensex.changePercent.toFixed(2)}%)
-                 </div>
-               </div>
-             </div>
- 
-             <div className="bg-white rounded-lg p-4 shadow-md border border-gray-200">
-               <div className="text-center">
-                 <h3 className="text-sm font-semibold text-gray-600 mb-1">BANK NIFTY</h3>
-                 <div className="text-xl font-bold text-gray-900">
-                   ₹{marketData.bankNifty.price.toFixed(2)}
-                 </div>
-                 <div className={`text-sm font-medium ${
-                   marketData.bankNifty.change >= 0 ? 'text-green-600' : 'text-red-600'
-                 }`}>
-                   {marketData.bankNifty.change >= 0 ? '+' : ''}{marketData.bankNifty.change.toFixed(2)} ({marketData.bankNifty.changePercent.toFixed(2)}%)
-                 </div>
-               </div>
-             </div>
- 
-             <div className="bg-white rounded-lg p-4 shadow-md border border-gray-200">
-               <div className="text-center">
-                 <h3 className="text-sm font-semibold text-gray-600 mb-1">GOLD</h3>
-                 <div className="text-xl font-bold text-gray-900">
-                   ₹{marketData.goldPrice.price.toFixed(0)}
-                 </div>
-                 <div className={`text-sm font-medium ${
-                   marketData.goldPrice.change >= 0 ? 'text-green-600' : 'text-red-600'
-                 }`}>
-                   {marketData.goldPrice.change >= 0 ? '+' : ''}{marketData.goldPrice.change.toFixed(0)} ({marketData.goldPrice.changePercent.toFixed(2)}%)
-                 </div>
-               </div>
-             </div>
-           </div>
-        </div>
-      </section>
+     
 
       {/* Hero Section with Background Carousel */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -231,17 +168,17 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-8 rounded-lg bg-gradient-to-br from-emerald-50 to-blue-50 border border-emerald-200">
-              <div className="text-4xl font-bold text-emerald-600 mb-2">95%</div>
+              <div className="text-4xl font-bold text-emerald-600 mb-2">80%</div>
               <div className="text-xl text-gray-900 font-semibold mb-2">Success Rate</div>
               <p className="text-gray-700">Proven track record of profitable trades</p>
             </div>
             <div className="p-8 rounded-lg bg-gradient-to-br from-blue-50 to-emerald-50 border border-blue-200">
-              <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">10+</div>
               <div className="text-xl text-gray-900 font-semibold mb-2">Years Experience</div>
               <p className="text-gray-700">Decades of market expertise</p>
             </div>
             <div className="p-8 rounded-lg bg-gradient-to-br from-emerald-50 to-blue-50 border border-emerald-200">
-              <div className="text-4xl font-bold text-emerald-600 mb-2">50K+</div>
+              <div className="text-4xl font-bold text-emerald-600 mb-2">20K+</div>
               <div className="text-xl text-gray-900 font-semibold mb-2">Happy Clients</div>
               <p className="text-gray-700">Trusted by traders worldwide</p>
             </div>

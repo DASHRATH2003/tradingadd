@@ -5,14 +5,15 @@ import cors from "cors";
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// ✅ CORS: localhost (dev) + live domain + www subdomain
+// ✅ CORS: localhost (dev) + live domain + www subdomain + vercel
 const corsOptions = {
   origin: [
     "http://localhost:5173", 
     "http://localhost:3000", 
     "https://tradesmartly.co.in",
-    "https://www.tradesmartly.co.in"
-  ], // React dev + production domains
+    "https://www.tradesmartly.co.in",
+    "https://tradingadd.vercel.app"
+  ], // React dev + production domains + vercel
   credentials: true,
 };
 app.use(cors(corsOptions));

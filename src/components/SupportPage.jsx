@@ -32,10 +32,15 @@ const SupportPage = () => {
     setStatus('');
 
     try {
-      // ✅ Dynamic endpoint - localhost for dev, production domain for live
-      const apiUrl = window.location.hostname === 'localhost' 
-        ? 'http://localhost:5000/send-mail'
-        : 'https://api.tradesmartly.co.in/send-mail';
+      // ✅ Dynamic endpoint - localhost for dev, production domains for live
+      let apiUrl;
+      if (window.location.hostname === 'localhost') {
+        apiUrl = 'http://localhost:5000/send-mail';
+      } else if (window.location.hostname.includes('vercel.app')) {
+        apiUrl = 'https://api.tradesmartly.co.in/send-mail';
+      } else {
+        apiUrl = 'https://api.tradesmartly.co.in/send-mail';
+      }
       
       const res = await fetch(apiUrl, {
         method: 'POST',

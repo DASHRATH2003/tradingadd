@@ -113,7 +113,7 @@ const AboutPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
             What Our Clients Say
           </h2>
-          <div className="flex overflow-x-auto gap-8 pb-4" style={{scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+          <div className="flex overflow-x-auto gap-8 pb-4" style={{scrollbarWidth: 'none', msOverflowStyle: 'none', WebkitScrollbar: {display: 'none'}}}>
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 min-w-80 flex-shrink-0">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full flex items-center justify-center">
